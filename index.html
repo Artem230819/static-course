@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport"
+		content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Static site course</title>
+
+
+	<link rel="stylesheet" href="./styles/homework9/font-famely.css">
+
+	<link rel="stylesheet" href="./styles/homework7/normalize.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+	<link rel="stylesheet" href="./styles/homework6/home.css">
+	<link rel="stylesheet" href="./styles/homework6/slider.css">
+	<link rel="stylesheet" href="./styles/homework5/team.css">
+	<link rel="stylesheet" href="./styles/homework8/delivery.css">
+
+	<!-- Lesson_09 -->
+	<link rel="stylesheet" href="./styles/homework9/why.css">
+	<link rel="stylesheet" href="./styles/homework9/icon-font/css/fontello.css">
+
+	<!-- Lesson_12 -->
+	<link rel="stylesheet" href="./styles/homework12/adaptive.css">
+
+</head>
+
+<body>
+	<header class="home">
+		<div class="home__wrapper">
+			<div class="home__header">
+				<span class="home__logo">
+					<a class="home__logo-text" href="#">
+						CHO CCO
+					</a>
+				</span>
+				<nav class="home__nav">
+					<ul class="home__nav-items">
+						<li><a href="#" class="home__nav-item home__nav-item--color-transition">О нас</a></li>
+						<li><a href="#slider" class="home__nav-item home__nav-item--color-transition">Батончики </a>
+						</li>
+						<li><a href="#team" class="home__nav-item home__nav-item--color-transition">Команда</a></li>
+						<li><a href="#" class="home__nav-item home__nav-item--color-transition">Меню</a></li>
+						<li><a href="#" class="home__nav-item home__nav-item--color-transition">Отзывы</a></li>
+						<li><a href="#" class="home__nav-item home__nav-item--color-transition">Как мы работаем</a></li>
+						<li><a href="#" class="home__nav-item home__nav-item--color-transition">Контакты</a></li>
+					</ul>
+				</nav>
+				<span class="home__nav-phone">
+					<img class="home__nav-phone-icon" src="./img/phone-alt-solid.svg" alt="phone">
+					<a class="home__nav-phone-tel home__nav-phone-tel--color-transition" href="tel:88009039090">8 800
+						903 90 90</a>
+				</span>
+				<span><a class="home__nav-expand" href="#">&#9776;</a></span>
+			</div>
+			<div class="home__content">
+				<div class="home__content-left">
+					<div class="home__content-top">
+						<h1 class="home__content-title">натуральные
+							шоколадные
+							батончики</h1>
+						<p class="home__content-desc">Наши батончики идеально подходят для
+							тех, кто следит за своим здоровьем</p>
+						<input class="home_content-btn btn" value="Заказать" type="submit">
+					</div>
+					<div class="home__content-footer">
+						<div class="home__footer-icon">
+							<img class="home__footer-icon-img" src="./img/icon_1.png" alt="icon">
+							<p class="home__footer-icon-info">100%
+								натуральный
+								продукт</p>
+						</div>
+						<div class="home__footer-icon">
+							<img class="home__footer-icon-img" src="./img/icon_2.png" alt="icon">
+							<p class="home__footer-icon-info">3-5 дней доставка по РФ</p>
+						</div>
+						<div class="home__footer-icon">
+							<img class="home__footer-icon-img" src="./img/icon_3.png" alt="icon">
+							<p class="home__footer-icon-info">Не портит фигуру</p>
+						</div>
+					</div>
+				</div>
+				<div class="home__content-right">
+					<figure>
+						<img src="./img/bars.png" alt="bars" class="home__content-bars">
+					</figure>
+					<img src="./img/листья.png" alt="leaves" class="home__content-leaves">
+					<img src="./img/ягоды2.png" alt="baries" class="home__content-baries home__content-baries--stretch">
+				</div>
+			</div>
+		</div>
+		<span>
+			<img src="./img/узор.png" alt="pattern" class="home__img-pattern">
+		</span>
+	</header>
+	<main>
+		<section class="why">
+			<div class="why__wrapper bz-content">
+				<div class="why__header">
+					<h2 class="why__header-title">почему chocco?</h2>
+					<p class="why__header-desc">В нашем мире все происходит очень быстро, поэтому мы
+						делаем батончики, которые удобно взять с собой.</p>
+				</div>
+				<div class="why__content">
+					<div class="why__content-item">
+						<div class="why__content-img-wrapper why__content-img-figure">
+							<i class="why__content-img icon-иконка_why"></i>
+						</div>
+						<h2 class="why__content-title">Полезно</h2>
+						<p class="why__content-desc">Натуральность - ключевое качество
+							нашей продукции. Мы используем
+							только природные ингредиенты.</p>
+					</div>
+					<div class="why__content-points">
+						<span class="why__content-point"></span>
+						<span class="why__content-point"></span>
+						<span class="why__content-point"></span>
+					</div>
+					<div class="why__content-item">
+						<div class="why__content-img-wrapper why__content-img-smail">
+							<i class="why__content-img icon-иконка2_why"></i>
+						</div>
+						<h2 class="why__content-title">Вкусно</h2>
+						<p class="why__content-desc">Нежный, ненавязчивый, изысканный –
+							так клиенты описывают вкусовые
+							качества наших батончиков.</p>
+					</div>
+					<div class="why__content-points">
+						<span class="why__content-point"></span>
+						<span class="why__content-point"></span>
+						<span class="why__content-point"></span>
+					</div>
+					<div class="why__content-item">
+						<div class="why__content-img-wrapper why__content-img-hand">
+							<i class="why__content-img icon-иконка3_why"></i>
+						</div>
+						<h2 class="why__content-title">Питательно</h2>
+						<p class="why__content-desc">Высокое содержание качественного
+							белка, а также всех необходимых
+							витаминов и минералов.</p>
+					</div>
+				</div>
+				<span class="why__footer">
+					<img class="why__footer-img why__footer-img--stretch" src="./img/малина.png" alt="raspberry">
+				</span>
+			</div>
+		</section>
+		<section class="why">
+			<div class="why__wrapper bz-border">
+				<div class="why__header">
+					<h2 class="why__header-title">почему chocco?</h2>
+					<p class="why__header-desc">В нашем мире все происходит очень быстро, поэтому мы
+						делаем батончики, которые удобно взять с собой.</p>
+				</div>
+				<div class="why__content">
+					<div class="why__content-item">
+						<div class="why__content-img-wrapper why__content-img-clone why__content-img-figure">
+							<i class="why__content-img icon-иконка_why"></i>
+						</div>
+						<h2 class="why__content-title why__content-title-clone">Полезно</h2>
+						<p class="why__content-desc">Натуральность - ключевое качество
+							нашей продукции. Мы используем
+							только природные ингредиенты.</p>
+					</div>
+					<div class="why__content-points">
+						<span class="why__content-point"></span>
+						<span class="why__content-point"></span>
+						<span class="why__content-point"></span>
+					</div>
+					<div class="why__content-item">
+						<div class="why__content-img-wrapper  why__content-img-clone why__content-img-smail">
+							<i class="why__content-img icon-иконка2_why"></i>
+						</div>
+						<h2 class="why__content-title why__content-title-clone">Вкусно</h2>
+						<p class="why__content-desc">Нежный, ненавязчивый, изысканный –
+							так клиенты описывают вкусовые
+							качества наших батончиков.</p>
+					</div>
+					<div class="why__content-points">
+						<span class="why__content-point"></span>
+						<span class="why__content-point"></span>
+						<span class="why__content-point"></span>
+					</div>
+					<div class="why__content-item">
+						<div class="why__content-img-wrapper  why__content-img-clone why__content-img-hand">
+							<i class="why__content-img icon-иконка3_why"></i>
+						</div>
+						<h2 class="why__content-title why__content-title-clone">Питательно</h2>
+						<p class="why__content-desc">Высокое содержание качественного
+							белка, а также всех необходимых
+							витаминов и минералов.</p>
+					</div>
+				</div>
+				<span class="why__footer">
+					<img class="why__footer-img why__footer-img--stretch" src="./img/малина.png" alt="raspberry">
+				</span>
+			</div>
+		</section>
+		<section class="slider" id="slider">
+			<div class="slider__wrapper">
+				<article class="slider__content">
+					<div class="slider__swipe">
+						<svg xmlns="http://www.w3.org/2000/svg" width="15" height="29" viewBox="0 0 15 29">
+							<defs>
+								<clipPath id="ggzaa">
+									<path fill="#fff"
+										d="M13.994.817L2.227 11.46a3.973 3.973 0 0 0 0 5.726l11.767 10.644" />
+								</clipPath>
+							</defs>
+							<g>
+								<g>
+									<path fill="#0d0d0d"
+										d="M13.994.817L2.227 11.46a3.973 3.973 0 0 0 0 5.726l11.767 10.644" />
+									<path fill="none" stroke="#fff" stroke-miterlimit="20" stroke-width="4"
+										d="M13.994.817L2.227 11.46a3.973 3.973 0 0 0 0 5.726l11.767 10.644"
+										clip-path="url(&quot;#ggzaa&quot;)" />
+								</g>
+							</g>
+						</svg>
+					</div>
+					<div class="slider__content-center">
+						<div class="slider__img">
+							<figure>
+								<img src="./img/bars2.png" alt="bars" class="slider__img-bars">
+							</figure>
+							<img src="./img/листья2.png" alt="leaves" class="slider__img-leaves">
+							<img src="./img/Эллипс_.png" alt="ellipse" class="slider__img-ellipse">
+						</div>
+						<div class="slider__desc">
+							<h2 class="slider__desc-title">Батончик “Морские
+								водоросли”</h2>
+							<h3 class="slider__desc-subtitle">Состав:</h3>
+							<p class="slider__desc-text">Гранола из морских водорослей с овсом, миндалем и тыквенными
+								семечками. В состав также
+								входят: сухое молоко, заменитель сахара и какао бобы.</p>
+							<div class="slider__desc-info">
+								<div class="slider__desc-left">
+									<h4 class="slider__desc-left-title">Калорийность</h4>
+									<p class="slider__desc-left-text">120 ккал</p>
+								</div>
+								<div class="slider__desc-right">
+									<h4 class="slider__desc-left-title">Вес</h4>
+									<p class="slider__desc-left-text">98 грамм</p>
+								</div>
+							</div>
+							<div class="slider__get">
+								<span class="slider__get-price">140 ₽</span>
+								<input class="slider__get-btn btn" value="Заказать" type="submit">
+							</div>
+						</div>
+					</div>
+					<div class="slider__swipe">
+						<svg xmlns="http://www.w3.org/2000/svg" width="15" height="29" viewBox="0 0 15 29">
+							<defs>
+								<clipPath id="fjmma">
+									<path fill="#fff"
+										d="M1.006.817L12.772 11.46a3.973 3.973 0 0 1 0 5.726L1.006 27.831" />
+								</clipPath>
+							</defs>
+							<g>
+								<g>
+									<path fill="#0d0d0d"
+										d="M1.006.817L12.772 11.46a3.973 3.973 0 0 1 0 5.726L1.006 27.831" />
+									<path fill="none" stroke="#fff" stroke-miterlimit="20" stroke-width="4"
+										d="M1.006.817L12.772 11.46a3.973 3.973 0 0 1 0 5.726L1.006 27.831"
+										clip-path="url(&quot;#fjmma&quot;)" />
+								</g>
+							</g>
+						</svg>
+					</div>
+				</article>
+			</div>
+		</section>
+
+		<section class="team" id="team">
+			<div class="team__container">
+				<span class="team__img-top team__img-top--stretch"></span>
+				<aside class="team__wrapper">
+					<div class="team__title">
+						<h4>Команда</h4>
+					</div>
+					<div class="team__items">
+						<article class="team__item team__item1">
+							<div class="team__img">
+								<img src="./img/photo-1542211295-d5bf730e56cd.jpg" alt="img">
+							</div>
+							<div class="team__item-title">
+								<h5 class="team__item-name">Борис Федорович</h5>
+								<svg class="team__item-icon" width="9" height="6">
+									<g>
+										<g>
+											<path d="M4.50637,6.13959v0l-4.50072,-6.00308v0h9.00137v0z" fill="#0f5a47"
+												fill-opacity="1"></path>
+										</g>
+									</g>
+								</svg>
+							</div>
+						</article>
+
+						<article class="team__item team__item2">
+							<div class="team__img">
+								<img src="./img/photo-1548534984-ddf53b264a58.jpg" alt="img">
+							</div>
+							<div class="team__item-title">
+								<h5 class="team__item-name">Алла Иванова</h5>
+								<svg class="team__item-icon" width="9" height="6">
+									<g>
+										<g>
+											<path d="M4.50637,6.13959v0l-4.50072,-6.00308v0h9.00137v0z" fill="#0f5a47"
+												fill-opacity="1"></path>
+										</g>
+									</g>
+								</svg>
+							</div>
+						</article>
+						<div class="team__item team_item-break"></div>
+						<article class="team__item">
+							<div class="team__item-img">
+								<img src="./img/photo-1551153771-1a67a570d583.jpg" alt="img">
+							</div>
+							<div class="team__item-title">
+								<h5 class="team__item-name">Кирилл Матросов</h5>
+								<svg class="team__item-icon" width="9" height="6">
+									<g>
+										<g>
+											<path d="M4.50643,-0.14275v0l-4.50078,6.00458v0h9.00137v0z" fill="#0f5a47"
+												fill-opacity="1"></path>
+										</g>
+									</g>
+								</svg>
+							</div>
+							<div class="team__item-desc">
+								<h5 class="team__item-desc-title">Оператор</h5>
+								<p class="team__item-desc-content">С радостью поможет подобрать батончики и оформить
+									заказ.
+								</p>
+							</div>
+						</article>
+
+						<article class="team__item team__item4">
+							<div class="team__item-img">
+								<img src="./img/photo-1549351512-c5e12b11e283.jpg" alt="img">
+							</div>
+							<div class="team__item-title">
+								<h5 class="team__item-name">Мила Рыжкова </h5>
+								<svg class="team__item-icon" width="9" height="6">
+									<g>
+										<g>
+											<path d="M4.50637,6.13959v0l-4.50072,-6.00308v0h9.00137v0z" fill="#0f5a47"
+												fill-opacity="1"></path>
+										</g>
+									</g>
+								</svg>
+							</div>
+						</article>
+					</div>
+				</aside>
+				<span class="team__img-bottom team__img-bottom--stretch"></span>
+			</div>
+		</section>
+		<section style="height: 300px;">
+			<h2>Заголовок</h2>
+		</section>
+		<section class="delivery">
+			<div class="delivery__wrapper">
+				<span class="delivery__img-top">
+					<img class="delivery__img-blackberry delivery__img-blackberry--stretch" src="./img/Ежевика_form.png"
+						alt="blackberry">
+				</span>
+				<h2 class="delivery__title">Закажите доставку</h2>
+				<form class="form" action="index.php" method="GET">
+					<div class="form__left">
+						<div class="form__left-top box">
+							<div class="box__name">
+								<label for="name">Имя</label>
+								<input class="box__input box__name-input" type="text" id="name" placeholder="Имя"
+									required name="name">
+							</div>
+							<div class="box__phone">
+								<label for="phone">Телефон</label>
+								<input class="box__input box__phone-input" type="tel" id="phone" placeholder="Телефон"
+									name="phone" required>
+							</div>
+						</div>
+						<div class="box">
+							<div class="box__street">
+								<label for="street">Улица</label>
+								<input class="box__input box__street-input" type="text" id="street" placeholder="Улица"
+									name="street" required>
+							</div>
+						</div>
+						<div class="form__items box">
+							<div class="form__item box__hous">
+								<label for="hous">Дом</label>
+								<input class="box__input form__item-input" type="text" id="hous" placeholder="Дом"
+									name="hous" required>
+							</div>
+							<div class="form__item box__corps">
+								<label for="corps">Корпус</label>
+								<input class="box__input form__item-input" type="text" id="corps" placeholder="Корпус"
+									name="corps" required>
+							</div>
+							<div class="form__item box__apartment">
+								<label for="apartment">Квартира</label>
+								<input class="box__input form__item-input" type="text" id="apartment"
+									placeholder="Квартира" name="apartment" required>
+							</div>
+							<div class="form__item box__floor">
+								<label for="floor">Этаж</label>
+								<input class="box__input form__item-input" type="text" id="floor" placeholder="Этаж"
+									name="floor" required>
+							</div>
+						</div>
+					</div>
+					<div class="form__right box">
+						<div class="box__comments">
+							<label>Комментарий</label>
+							<textarea class="box__comments-textarea" name="comments" id="comments" cols="30" rows="10"
+								placeholder="Что-то тут есть" required></textarea>
+						</div>
+						<div class="form__payment">
+							<div class="form__weak">
+								<input class="form__radio" type="radio" id="weak" name="payment" required>
+								<label class="form__label" for="weak">Потребуется сдача</label>
+							</div>
+							<div class="form__card">
+								<input class="form__radio" type="radio" id="card" name="payment" required>
+								<label class="form__label" for="card">Оплата по карте</label>
+							</div>
+						</div>
+						<div class="form__callback">
+							<input class="form__callback-input" type="checkbox" id="callback" name="callback">
+							<label class="form__callback-label" for="callback">Не перезванивать</label>
+						</div>
+						<div class="form__btn">
+							<input class="form__btn-order btn" value="Заказать" type="submit">
+							<input class="form__btn-clear" value="Очистить" type="reset">
+						</div>
+					</div>
+				</form>
+				<span class="delivery__img-bot">
+					<img class="delivery__img-berry delivery__img-berry--stretch" src="./img/ягода_form.png"
+						alt="berry">
+					<img class="delivery__img-sheet " src="./img/лист_form.png" alt="sheet">
+				</span>
+			</div>
+		</section>
+		<section style="height: 300px;">
+			<h2>Заголовок</h2>
+		</section>
+	</main>
+
+</body>
+
+</html>

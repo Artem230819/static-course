@@ -1,0 +1,37 @@
+.why{
+	padding-bottom: 131px;
+}
+.why__wrapper{
+	width: 1100px;
+	margin: 0 auto;
+	position: relative;
+}
+.why__header{
+	margin-top: 100px;
+	text-align: center;
+}
+.why__header-title{
+	margin-bottom: 23px;
+}
+
+
+.why__content{
+	display: flex;
+	text-align: center;
+	margin-top: 57px;
+	align-items: flex-end;
+	justify-content: space-between;
+}
+.why__content-item{
+	max-width:280px;
+}
+.why__content-title{
+	margin-top: 64px;
+	margin-bottom: 30px;
+}
+
+.why__footer{
+	position: absolute;
+	bottom: -250px;
+	left: -79px;
+}

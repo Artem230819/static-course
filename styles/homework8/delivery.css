@@ -1,0 +1,273 @@
+.delivery{
+	background-image: url(/img/паттерн.jpg);
+
+}
+.delivery__wrapper{
+	max-width: 61rem;
+	width: 100%;
+	margin: 0 auto;
+	color: #0f5a47;
+	font-size: 18px;
+	font-weight: 400;
+	position: relative;
+	min-width: 320px;
+
+}
+.delivery__title{
+	padding-top: 118px;
+	text-align: center;
+	font-size: 48px;
+	font-weight: 700;
+}
+
+.form{
+	margin-top: 54px;
+	display: flex;
+	padding-bottom: 85px;
+	margin-left: 80px;
+	margin-right: 80px;
+}
+.form__left{
+	margin-right: 20px;
+	max-width: 460px;
+}
+
+.form__left-top{
+	display: flex;
+}
+.box__input{
+	min-height: 59px;
+	line-height: 59px;
+	display: block;
+	text-indent: 11px;
+	border: none;
+	font-size: 18px;
+	font-weight: 400;
+}
+
+
+.box__input:focus{
+	outline: 3px solid yellow;
+}
+.box__name{
+	margin-right: 20px;
+	max-width: 220px;
+	width: 100%;
+}
+.box__name-input{
+	max-width: 220px;
+	width: 100%;
+}
+
+
+.box__phone{
+	max-width: 220px;
+	width: 100%;
+}
+.box__phone-input{
+	max-width: 220px;
+	width: 100%;
+}
+
+.box__street{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.box__street-input{
+	max-width: 460px;
+	width: 100%;
+}
+
+.form__items{
+	display: flex;
+}
+.form__item{
+	margin-right: 20px;
+}
+
+/*CSS - уровень 2 (сложные селекторы) - Задание 1*/
+.form__item:nth-child(-n+3):hover{
+	background-color: dimgrey;
+}
+
+.form__item:last-child{
+	margin-right: 0;
+}
+.form__item-input{
+	max-width: 100px;
+	width: 100%;
+}
+
+.form__right{
+	max-width: 460px;
+	width: 100%;
+}
+
+
+.box__comments-textarea{
+	display: block;
+	resize: none;
+	max-width: 460px;
+	max-height: 180px;
+	width: 100%;
+	height: 100%;
+	border: none;
+	font-size: 18px;
+	font-weight: 400;
+}
+/*CSS - уровень 2 (сложные селекторы) - Задание 1*/
+.box__comments-textarea:focus{
+	outline: 3px solid yellow;
+}
+.form__payment{
+	display: flex;
+	margin-top: 20px;
+	margin-bottom: 8px;
+}
+.form__weak{
+	margin-right: 20px;
+	display: inline-block;
+}
+
+
+.form__radio{
+	position: absolute;
+	z-index: -1;
+	opacity: 0;
+	margin: 10px 0 0 7px;
+}
+.form__radio + .form__label{
+	position: relative;
+	padding: 0 0 0 35px;
+	cursor: pointer;
+}
+/*CSS - уровень 2 (сложные селекторы) - Задание 1*/
+.form__radio + .form__label:before {
+	content: '';
+	position: absolute;
+	top: -5px;
+	left: 0;
+	width: 25px;
+	height: 26px;
+	border: 1px solid #CDD1DA;
+	border-radius: 50%;
+	background: #FFF;
+}
+.form__radio + .form__label:after {
+	content: '';
+	position: absolute;
+	top: 2px;
+    left: 7px;
+	width: 13px;
+	height: 14px;
+	border-radius: 50%;
+	background: #0f5a47;
+	opacity: 0;
+	transition: .2s;
+}
+/*CSS - уровень 2 (сложные селекторы) - Задание 1*/
+.form__radio:checked + .form__label:after {
+	opacity: 1;
+
+}
+.form__radio:focus + .form__label:before {
+	box-shadow: 0 0 0 3px rgba(255,255,0,.7);
+}
+
+
+.form__callback-input{
+	position: absolute;
+	z-index: -1;
+	opacity: 0;
+	margin: 10px 0 0 7px;
+}
+.form__callback-input + .form__callback-label{
+	position: relative;
+	padding: 0 0 0 35px;
+	cursor: pointer;
+}
+
+.form__callback-input + .form__callback-label:before {
+	content: '';
+	position: absolute;
+	top: -3px;
+	left: 0;
+	width: 25px;
+	height: 26px;
+	border: 1px solid #CDD1DA;
+	background: #FFF;
+}
+.form__callback-input + .form__callback-label:after {
+	content: '';
+	position: absolute;
+    top: 6px;
+    left: 8px;
+	width: 11px;
+	height: 9px;
+	background-image: url(/img/Галочка.png);
+	background-repeat: no-repeat;
+	opacity: 0;
+	transition: .2s;
+}
+.form__callback-input:checked + .form__callback-label:after {
+	opacity: 1;
+
+}
+
+
+
+
+
+
+.form__btn{
+	margin-top: 40px;
+}
+
+.form__btn-order{
+	background-color: #0f5a47;
+	font-size: 19px;
+	color: #ffffff;
+	margin-right: 30px;
+}
+
+.form__btn-clear{
+	border: none;
+	background-color: rgba(255, 255, 255, .0);
+	color: #0f5a47;
+	font-size: 18px;
+}
+
+.delivery__img-blackberry{
+	position: absolute;
+	top: -133px;
+	right: 0;
+	max-width: 242px;
+	width: 100%;
+	height: auto;
+}
+.delivery__img-blackberry--stretch:hover{
+	transform: rotate(4deg) scale(1.2);
+	transition-duration: 5s; 
+	transition-property: transform;
+	transition-timing-function: linear;
+}
+
+.delivery__img-berry{
+	position: absolute;
+	left: -75px;
+	bottom: 50px;
+}
+.delivery__img-berry--stretch:hover{
+	transform: rotate(4deg) scale(1.2);
+	transition-duration: 5s; 
+	transition-property: transform;
+	transition-timing-function: linear;
+}
+
+.delivery__img-sheet{
+	position: absolute;
+	right: 0;
+	bottom: 108px;
+}
+

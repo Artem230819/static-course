@@ -1,0 +1,239 @@
+/*CSS - уровень 2 (сложные селекторы) - Задание 1*/
+*{
+	margin: 0;
+	padding: 0;
+	
+}
+
+.home{
+	background-color: #61c4d9;
+	position: relative;
+
+}
+.home__wrapper{
+	max-width: 61rem;
+	width: 100%;
+	margin: 0 auto;
+	position: relative;
+	z-index: 50;
+	min-width: 320px;
+}
+.home__logo{
+	width: 53px;
+}
+.home__logo-text{
+	font-size: 24px;
+	text-decoration: none;
+	color: #fff;
+}
+.home__header{
+	display: flex;
+	justify-content: space-between;
+	padding-top: 25px;
+	align-items: center;
+	margin-left: 80px;
+	margin-right: 80px;
+}
+.home__nav{
+	margin-left: 45px;
+	margin-right: 64px;
+}
+.home__nav-items{
+	display: flex;
+	justify-content: space-between;
+	list-style: none;
+	padding: 0;
+	margin-right: -30px;
+	margin-right: -70px;
+}
+.home__nav-item{
+	margin-right: 27px;
+	font-size: 18px;
+	text-decoration: none;
+	color: #ffffff;
+	padding-bottom: 5px;
+	position: relative;
+	transition-duration: 1s; 
+	transition-property: color;
+	transition-timing-function: linear;
+}
+/*CSS - уровень 2 (сложные селекторы) - Задание 1*/
+.home__nav-items li:nth-last-child(1) .home__nav-item:active {
+	background-color: chartreuse;
+}
+/*CSS - уровень 2 (сложные селекторы) - Задание 1*/
+.home__nav-items li:nth-of-type(3) .home__nav-item:link {
+	background-color: #61c4d9;
+}
+/*CSS - уровень 2 (сложные селекторы) - Задание 1*/
+.home__nav-items li:nth-child(3) .home__nav-item:visited {
+	background-color: purple;
+}
+
+/*CSS - уровень 2 (сложные селекторы) - Задание 1*/
+.home__nav-item::after{
+	content: "";
+	position: absolute;
+	display: block;
+	border-bottom: solid 2px #fff;
+	width: 0%;
+	transition-duration: 1s; 
+	transition-property: width, border;
+	transition-timing-function: linear;
+	padding-bottom: 5px;
+}
+.home__nav-item:hover::after{
+	width: 100%;
+	border-bottom: solid 2px #FF8C00;
+}
+
+.home__nav-item--color-transition:hover{
+	color: #FF8C00;
+}
+
+.home__nav-phone-icon{
+	width: 12px;
+	height: 11px;
+}
+.home__nav-phone-tel{
+	text-decoration: none;
+	font-size: 24px;
+	color: #ffffff;
+	transition-duration: 2s; 
+	transition-property: color;
+	transition-timing-function: linear;
+}
+
+.home__nav-phone-tel--color-transition:hover{
+	color: #FF8C00;
+}
+
+.home__content{
+	display: flex;
+	padding-left: 50px;
+	margin-left: 30px;
+	margin-right: 14px;
+}
+.home__content-title{
+	font-size: 60px;
+	color: #ffffff;
+	font-weight: 700;
+	max-width: 404px;
+	text-transform: uppercase;
+}
+.home__content-desc{
+	margin-top: 22px;
+	margin-bottom: 32px;
+	font-size: 21px;
+	color: #ffffff;
+	max-width: 341px;
+}
+
+.home_content-btn{
+	color: #0f5a47;
+	border: none;
+	font-weight: bold;
+	font-size: 19px;
+	text-transform: uppercase;
+}
+
+.btn{
+	border-radius: 40px;
+	text-align: center;
+	width: 156px;
+	height: 58px;
+}
+
+.home__content-footer{
+	margin-top: 72px;
+	display: flex;
+}
+.home__footer-icon{
+	display: flex;
+	margin-right: 46px;
+	padding-bottom: 98px;
+}
+.home__footer-icon-img{
+	width: 50px;
+	height: 40px;
+}
+/*CSS - уровень 2 (сложные селекторы) - Задание 1*/
+.home__footer-icon:nth-child(odd){
+	color: #ffffff;
+}
+/*CSS - уровень 2 (сложные селекторы) - Задание 1*/
+.home__footer-icon:nth-child(even){
+	color: #ffffff;
+}
+/*CSS - уровень 2 (сложные селекторы) - Задание 1*/
+.home__footer-icon:first-child:hover{
+	color: blue;
+}
+.home__footer-icon-info{
+	margin-left: 7px;
+	max-width: 84px;
+	font-size: 16px;
+}
+.home__content-right{
+	width: 27.9rem;
+	height: 36rem;
+}
+
+.home__content-bars{
+	position: absolute;
+	top: 70px;
+	right: 0px;
+	z-index: 20;
+	max-width: 503px;
+	width: 100%;
+	height: auto;
+}
+
+
+.home__content-leaves{
+	position: absolute;
+	bottom: -52px;
+	right: 0px;
+	z-index: 40;
+	max-width: 1056;
+	width: 100%;
+	height: auto;
+}
+.home__content-baries{
+	position: absolute;
+	right: 10px;
+	bottom: -35px;
+	z-index: 50;
+	max-width: 387px;
+	width: 100%;
+	height: auto;
+}
+
+.home__content-baries--stretch:hover{
+	transform: rotate(4deg) scale(1.2);
+	transition-duration: 5s; 
+	transition-property: transform;
+	transition-timing-function: linear;
+}
+
+.home__img-pattern{
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	z-index: 10;
+	max-width: 512px;
+	width: 100%;
+	height: auto;
+}
+/*CSS - уровень 2 (сложные селекторы) - Задание 1*/
+#team:target h4{
+	background-color: darkorchid;
+}
+
+
+.home__nav-expand{
+	color: #fff;
+	font-size: 30px;
+	text-decoration: none;
+	display: none;
+}

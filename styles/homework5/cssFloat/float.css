@@ -1,0 +1,98 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+.team{
+	width: 1100px;
+	margin: 0 auto;
+	background-color: #f8faf9;
+	position: relative;
+}
+.team_img-top{
+	background-image: url(/img/Ягода2.jpg);
+	width: 135px;
+	height: 112px;
+	position: absolute;
+	right: 15px;
+	top: -64px;
+}
+.team__wrapper{
+	padding-top: 109px;
+	padding-bottom: 104px;
+}
+.team__title{
+	text-align: center;
+	font-size: 48px;
+	color: #0d0d0d;
+}
+.team__items{
+	width: 976px;
+	margin: 0 auto;
+	margin-top: 68px;
+	margin-bottom: 146px;
+}
+.team__item{
+	float: left;
+	margin-right: 16px;
+	max-width: 243px;
+	text-align: center;
+}
+
+.item1{
+	margin-top: 6px;
+}
+.item2{
+	margin-top: 63px;
+}
+.item4{
+	margin-top: 50px;
+}
+
+.team__items:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+  }
+  .team__items { display: inline-block; }
+  * html .team__items { height: 1%; }
+  .team__items { display: block; }
+  
+
+.item_img{
+	width: 223px;
+	height: 289px;
+}
+
+.item_title{
+	font-size: 21px;
+	margin-top: 25px;
+	color: #323232;
+	display: inline-block;
+}
+.item_icon{
+	min-height: 9px;
+}
+.item_desc-title{
+	font-size: 18px;
+	color: #281e1e;
+	margin-top: 13px;
+}
+.item_desc-content{
+	font-size: 16px;
+	color: #666666;
+	margin-top: 6px;
+	font-weight: 300;
+}
+
+.team_img-bottom{
+	background-image: url(/img/Ягода4.jpg);
+	width: 104px;
+	height: 114px;
+	position: absolute;
+	left: 33px;
+	bottom: -46px;
+}

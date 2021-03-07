@@ -1,0 +1,103 @@
+.slider{
+	padding-bottom: 112px;
+}
+.slider__wrapper{
+	max-width: 61rem;
+	width: 100%;
+	margin: 0 auto;
+	position: relative;
+	min-width: 320px;
+
+}
+.slider__content{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 130px;
+	align-items: center;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+.slider__content-center{
+	display: flex;
+}
+.slider__img{
+	position: relative;
+	margin-left: 70px;
+	margin-right: 93px;
+}
+.slider__img-bars{
+	position: absolute;
+	z-index: 10;
+	bottom: 77px;
+	left: -6px;
+}
+.slider__img-leaves{
+	position: absolute;
+	z-index: 20;
+	left: -53px;
+	bottom: 30px;
+}
+.slider__img-ellipse{
+	position: relative;
+	margin-top: 57px;
+}
+
+.slider__desc-title{
+	font-size: 36px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+.slider__desc-subtitle{
+	margin-top: 41px;
+	margin-bottom: 33px;
+	font-size: 24px;
+	font-weight: 500;
+}
+.slider__desc-text{
+	font-size: 18px;
+	font-weight: 400;
+	color: #666666;
+	margin-bottom: 51px;
+}
+.slider__desc-left-title{
+	font-size: 18px;
+	font-weight: 400;
+}
+.slider__desc-left-text{
+	font-size: 18px;
+	font-weight: 700;
+}
+.slider__get{
+	display: flex;
+	align-items: center;
+}
+.slider__get-price{
+	font-size: 60px;
+	font-weight: 300;
+	margin-right: 10px;
+}
+.slider__get-btn{
+	background-color: #0f5a47;
+	color: #ffffff;
+	font-size: 19px;
+}
+.slider__desc-info{
+	display: flex;
+	margin-bottom: 38px;
+
+}
+
+.slider__desc-right{
+	margin-left: 55px;
+}
+
+.slider__swipe{
+}
+/*CSS - уровень 2 (сложные селекторы) - Задание 1*/
+.slider__desc > p:hover{
+	color: green;
+}
+/*CSS - уровень 2 (сложные селекторы) - Задание 1*/
+.slider__desc-info ~ div:hover{
+	background-color: khaki;
+}

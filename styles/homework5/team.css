@@ -1,0 +1,116 @@
+.team{
+	max-width: 61rem;
+	width: 100%;
+	margin: 0 auto;
+	background-color: #f8faf9;
+	min-width: 320px;
+}
+.team__container{
+	position: relative;
+}
+.team__img-top{
+	background-image: url(/img/Ягода2.jpg);
+	background-repeat: no-repeat;
+	width: 135px;
+	height: 112px;
+	position: absolute;
+	right: 15px;
+	top: -64px;
+}
+
+.team__img-top--stretch:hover{
+	transform: rotate(4deg) scale(1.2);
+	transition-duration: 5s; 
+	transition-property: transform;
+	transition-timing-function: linear;
+}
+
+.team__wrapper{
+	padding-top: 109px;
+	padding-bottom: 104px;
+}
+.team__title{
+	text-align: center;
+	font-size: 48px;
+	color: #0d0d0d;
+}
+
+.team__items{
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	min-height: 22.5rem;
+	margin-top: 68px;
+}
+
+.team__item{
+	margin-right: 16px;
+	text-align: center;
+}
+
+.team__item1{
+	margin-top: 6px;
+}
+.team__item2{
+	-ms-flex-item-align: end;
+	    align-self: flex-end;
+	margin-bottom: 14px;
+}
+.team__item4{
+	-ms-flex-item-align: center;
+	    -ms-grid-row-align: center;
+	    align-self: center;
+}
+
+.team__item-title{
+	font-size: 21px;
+	margin-top: 25px;
+	color: #323232;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+			justify-content: center;
+	align-items: center;
+}
+
+
+
+.team__item-icon{
+	margin-left: 5px;
+}
+
+.team__item-desc-title{
+	font-size: 18px;
+	color: #281e1e;
+	margin-top: 13px;
+}
+.team__item-desc-content{
+	font-size: 16px;
+	color: #666666;
+	margin-top: 6px;
+	font-weight: 300;
+	width: 223px;
+}
+.team__img-bottom{
+	background-image: url(/img/Ягода4.jpg);
+	background-repeat: no-repeat;
+	width: 104px;
+	height: 114px;
+	position: absolute;
+	left: 33px;
+	bottom: -46px;
+}
+
+
+.team__img-bottom--stretch:hover{
+	transform: rotate(4deg) scale(1.2);
+	transition-duration: 5s; 
+	transition-property: transform;
+	transition-timing-function: linear;
+}
+
